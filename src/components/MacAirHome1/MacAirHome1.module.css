@@ -1,0 +1,297 @@
+.root {
+  position: relative;
+  width: 1470px;
+  height: 834px;
+  align-items: flex-start;
+  background-color: #000;
+  overflow: hidden;
+}
+.neurons2Gif {
+  position: absolute;
+  left: calc(50% - 370.5px);
+  top: calc(50% - -26px);
+  width: 1385px;
+  height: 782px;
+  background-image:/* webpackIgnore: true */ url('/assets/neurons2Gif.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.missionClinical {
+  position: absolute;
+  left: calc(50% - -322px);
+  top: calc(50% - -179.5px);
+  width: 520px;
+  height: 75px;
+  align-items: flex-start;
+  gap: 105px;
+  transform: translate(-50%, -50%);
+}
+.ourMission {
+  position: absolute;
+  left: 56px;
+  top: 12px;
+  width: min-content;
+  height: 51px;
+  align-items: center;
+  padding: 0 24px;
+  border-radius: 20px;
+  background-color: #d9d9d9e5;
+}
+.ourMission2 {
+  color: #032629;
+  font-size: 18px;
+  line-height: 140px;
+  font-weight: 600;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.clinical {
+  position: absolute;
+  left: 315px;
+  top: 12px;
+  width: 204px;
+  height: 51px;
+  place-content: center;
+  align-items: center;
+  padding: 0 24px;
+  outline: solid 1px #c3c3c3;
+  outline-offset: -1px;
+  border-radius: 20px;
+}
+.services {
+  color: #c3c3c3;
+  font-size: 18px;
+  line-height: 140px;
+  font-weight: 600;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  z-index: 0;
+  width: 136px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.resultsmatter {
+  position: absolute;
+  left: calc(50% - -229px);
+  top: calc(50% - -0.5px);
+  width: 706px;
+  height: 465px;
+  text-align: end;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.labelWrapper {
+  font-size: 100px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #dfefef;
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 300;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.label2 {
+  color: #dfefef;
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 300;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.navigation {
+  position: absolute;
+  left: 38px;
+  right: 54px;
+  top: 15px;
+  height: 35px;
+  align-items: flex-end;
+  gap: 140px;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 35px;
+  background-image:/* webpackIgnore: true */ url('/assets/logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  width: 878px;
+  height: 34px;
+  place-content: center;
+  align-items: flex-start;
+}
+.about {
+  color: #fff;
+  font-size: 20px;
+  line-height: 140px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 133px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.research {
+  color: #fff;
+  font-size: 20px;
+  line-height: 140px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 124px;
+  top: 0;
+  width: 196px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services2 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 140px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 294px;
+  top: 0;
+  width: 196px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rectangle82 {
+  position: absolute;
+  left: 737px;
+  top: -1px;
+  width: 154px;
+  height: 35px;
+  outline: solid 1px #028384;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #028384;
+}
+.contact {
+  color: #000;
+  font-size: 20px;
+  line-height: 140px;
+  font-weight: 600;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 716px;
+  top: 0;
+  width: 196px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.news {
+  color: #fff;
+  font-size: 20px;
+  line-height: 140px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 582px;
+  top: 0;
+  width: 196px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.results {
+  color: #fff;
+  font-size: 20px;
+  line-height: 140px;
+  font-family: Metropolis, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 448px;
+  top: 0;
+  width: 196px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.scrollNavigation {
+  position: absolute;
+  right: 26px;
+  top: calc(50% - -9px);
+  width: 26px;
+  height: 136px;
+  overflow: visible;
+  transform: translateY(-50%);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.chatIcon {
+  position: absolute;
+  right: 16px;
+  bottom: 15px;
+  width: 45px;
+  height: 45px;
+  background-image:/* webpackIgnore: true */ url('/assets/chatIcon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
